@@ -12,7 +12,7 @@ pub struct Dict<T> {
 /// `.unwrap()` is needed as it is the responsibility of the coder to handle missbehavior of the dict usage
 /// # Example of current usage
 /// ```rust
-/// # use adam::dict::Dict;
+/// # use cats_utils::dict::Dict;
 /// let mut my_dict = Dict::new();
 /// my_dict.insert("key", "value");
 /// println!("{}", my_dict.get::<&str>("key").unwrap());
